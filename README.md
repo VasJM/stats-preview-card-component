@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-using-css-flex-wHEg7iHIoM)
+- [Live Site](https://deluxe-daifuku-38d768.netlify.app/)
 
 ## My process
 
