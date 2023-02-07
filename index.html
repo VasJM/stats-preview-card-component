@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Stats Preview Card Component</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <article class="card flex-group"> 
+            <!-- Card Image -->
+            <picture class="card__img">
+                <!-- Desktop Image -->
+                <source srcset="./images/image-header-desktop.jpg" media="(min-width: 50em)">
+                <!-- Mobile Image -->
+                <img src="./images/image-header-mobile.jpg" alt="">
+            </picture>
+
+            <!-- Card Content -->
+            <div class="card__content">
+                <!-- Card Lede -->
+                <div class="card__lede">
+                    <h1>
+                        Get <span class="highlight">insights</span> that help your business grow.
+                    </h1>
+                    <p>
+                        Discover the benefits of data analytics and make better decisions regarding revenue, customer
+                        experience, and overall efficiency.
+                    </p>
+                </div>
+
+                <!-- Card Stats -->
+                <ul class="card__stats flex-group">
+                    <li class="stat flex-group">
+                        <span class="stat__num">10k+</span>
+                        <span class="stat__focus">companies</span>
+                    </li>
+                    <li class="stat flex-group">
+                        <span class="stat__num">314</span>
+                        <span class="stat__focus">templates</span>
+                    </li>
+                    <li class="stat flex-group">
+                        <span class="stat__num">12m+</span>
+                        <span class="stat__focus">queries</span>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </main>
+</body>
+
+</html>
